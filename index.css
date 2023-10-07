@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --blanco: #fff;
+    --negro: #000;
+    --primario: #723185;
+    --segundario: #000;
+    --gris: #757575;
+    --rojp: #FE90AA;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    font-size: 16px;
+}
+/*--------------------------------------------------------- nav------------------------------------------------------------------*/
+
+.navegador {
+    background-color:var(--primario);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+
+.navegador h2{
+    padding-left: 1rem;
+    color: #fff;
+}
+.navegador #icon{
+    padding-top: 3rem;
+    align-items: center;
+}
+
+.navegador #icon :hover{
+    background-color: #fff;
+    color: var(--primario);
+
+}
+
+.navegador img{
+    height: 10rem;
+}
+
+/*---------------------------------------------------------parte 1------------------------------------------------------------------*/
+
+.division1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.division1 div {
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    border-radius: 0 50px 50px 0 ; 
+    margin-top: 20px;
+}
+
+.division1 h1 {
+    color: #fff;
+    font-size:15rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.division1 h2{
+    color: #fff;
+}
+
+.division1 p {
+    position: relative;
+    left: 100px;
+    top: 100px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.division1 .div1{
+    margin-top: 400px;
+    position: relative;
+    right: 100px;
+    bottom: 300px;
+    background-color:var(--primario) ;
+}
+
+.div2{
+    position: relative;
+    bottom: 30rem;
+}
+
+.division1 .div2 img{
+    height: 75rem;
+    width: max-content;
+    position: relative;
+    top: 30rem;
+    border-radius: 10rem;
+}
+
+/*---------------------------------------------------------parte 2------------------------------------------------------------------*/
+
+.division2{
+    text-align: center;
+    background: #EEEEEE;
+}
+
+.division2 div{
+    display: inline-block;
+    width: 40rem;
+    height: 20rem;
+    margin:5rem  12rem;
+    border-radius: 10px; 
+}
+
+.division2 img{
+    height: 400px;
+    position: relative;
+    border-radius: 100px;
+    bottom: 400px;
+    right: 100px;
+}
+
+.division2 h2 {
+    font-size: 6rem;
+    position: relative;
+    margin-bottom: 40rem;
+    border-radius: 10px; 
+    margin-top: 2rem;
+    background-color: var(--rojp);
+}
+
+.division2 p {
+    position: relative;
+    bottom: 30rem;
+    font-size: 2rem;
+}
+
+/*---------------------------------------------------------parte 3------------------------------------------------------------------*/
+
+.division3{
+    text-align:center;
+    height:70rem ;
+    border-radius:10px; 
+    margin-left: 3rem;
+    margin-right: 3REM;
+    margin-bottom: 20   rem;
+}
+
+.division3 h2{
+    position: relative;
+    bottom: 10rem;
+    right: 40rem;
+    font-size: 5rem;
+}
+
+.division3 h3{
+    width: 40rem;
+    height: 20rem;
+    position: relative;
+}
+
+.division3 div{
+display: inline-block;
+position: relative;
+right: 20REM;
+}
+
+.division3 img{
+    height: 40rem;
+    position: relative;
+    border-radius: 5rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+}
+
+.logo{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    margin-top: 6rem;
+    right: 10rem;
+}
+
+.logo img{
+    position: relative;
+    width: 10rem;
+    left:12rem ;
+}
+
+#gojo{
+right: 8rem;
+height: 1rem;
+margin: 1rem;
+text-align: center;
+width: 20rem;
+right: 20rem;
+}
+
+#gojo img{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+}
+
+#sukuna{
+background: none;
+bottom: 40REM;
+left: 35REM;
+height: 2rem;
+margin: 2rem;
+text-align: center;
+width: 20rem;
+text-align: center;
+}
+
+#sukunadesc{
+    bottom: 7rem;
+}
+
+#sukuna img{
+    font-size: 1rem;
+    position: relative;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    top: 45rem;
+}
+
+    /*---------------------------------------------------------parte 4------------------------------------------------------------------*/
+
+.division4{
+    display: inline-block;
+    position: relative;
+    right: 20REM;
+    margin-left: 10rem;
+}
+
+.division4 h2{
+    position: relative;
+    left: 30rem;
+    top: 5rem;
+    font-size: 7rem;
+}
+
+.division4 img{
+    height: 40rem;
+    border-radius: 5rem;
+    margin: 0rem 2rem;
+    position: relative;
+    left: 50rem;
+    top: 10rem;
+}
+
+.division4 p{
+    position: relative;
+    top: 10rem;
+    width: 100rem;
+    left: 65rem;
+}
+
