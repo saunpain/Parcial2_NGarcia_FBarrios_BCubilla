@@ -11,15 +11,17 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 html{
     font-size: 62.5%;
-
 }
 
 body{
     font-size: 16px;
+    width:100%;
 }
 /*--------------------------------------------------------- nav------------------------------------------------------------------*/
 
@@ -27,16 +29,15 @@ body{
     background-color:var(--primario);
     display: flex;
     justify-content: space-between;
-    border-radius: 10px;
 }
 
 
 .navegador h2{
-    padding-left: 1rem;
+    padding-left: 10px;
     color: #fff;
 }
 .navegador #icon{
-    padding-top: 3rem;
+    padding-top: 30px;
     align-items: center;
 }
 
@@ -47,7 +48,7 @@ body{
 }
 
 .navegador img{
-    height: 10rem;
+    height: 100px;
 }
 
 /*---------------------------------------------------------parte 1------------------------------------------------------------------*/
@@ -67,7 +68,7 @@ body{
 
 .division1 h1 {
     color: #fff;
-    font-size:15rem;
+    font-size:150px;
     margin-top: 25px;
     margin-bottom: 15px;
 }
@@ -80,7 +81,7 @@ body{
     position: relative;
     left: 100px;
     top: 100px;
-    font-size: 2rem;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -94,29 +95,70 @@ body{
 
 .div2{
     position: relative;
-    bottom: 30rem;
+    bottom: 300px;
 }
 
 .division1 .div2 img{
-    height: 75rem;
+    height: 750px;
     width: max-content;
     position: relative;
-    top: 30rem;
-    border-radius: 10rem;
+    top: 300px;
+    border-radius: 100px;
 }
 
 /*---------------------------------------------------------parte 2------------------------------------------------------------------*/
 
-.division2{
+.division2-deposito{
     text-align: center;
-    background: #EEEEEE;
+    width: 100%;
+    height: 850px;
 }
 
+.division2{
+    width: 1140px;
+    height: auto;
+    display: flex;
+    margin-left: 170px;
+    margin-right: 170px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.division2 .deposito-img{
+    height: 100%;
+    width: 50%;
+}
+
+.division2 .deposito-img img{
+    height: 700px;
+    width: auto;
+    border-radius: 100px;
+}
+
+.division2 .deposito-texto{
+    text-align: left;
+    height: 100%;
+    width: 50%;
+    overflow-wrap: break-word; 
+}
+
+.deposito-texto-burrito{
+    padding: 30px 59px;
+    margin: 0;
+}
+
+.deposito-texto-burrito h2{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 35px auto 0 1px;
+}
+
+/*
 .division2 div{
     display: inline-block;
-    width: 40rem;
-    height: 20rem;
-    margin:5rem  12rem;
+    width: 400px;
+    height: 200px;
+    margin: 50px 120px;
     border-radius: 10px; 
 }
 
@@ -125,145 +167,203 @@ body{
     position: relative;
     border-radius: 100px;
     bottom: 400px;
-    right: 100px;
+    right: 150px;
 }
 
 .division2 h2 {
     font-size: 6rem;
     position: relative;
-    margin-bottom: 40rem;
-    border-radius: 10px; 
-    margin-top: 2rem;
-    background-color: var(--rojp);
+    margin-bottom: 400px;
+    margin-top: 20px;
 }
 
 .division2 p {
     position: relative;
-    bottom: 30rem;
+    bottom: 300px;
     font-size: 2rem;
 }
-
+*/
 /*---------------------------------------------------------parte 3------------------------------------------------------------------*/
 
 .division3{
     text-align:center;
-    height:70rem ;
-    border-radius:10px; 
-    margin-left: 3rem;
-    margin-right: 3REM;
-    margin-bottom: 20   rem;
+    height:700px;
+    border-radius:10px;
+    background: #EEEEEE;
+    padding-bottom: 1200px;
 }
 
 .division3 h2{
     position: relative;
-    bottom: 10rem;
-    right: 40rem;
-    font-size: 5rem;
+    right: 600px;
+    font-size: 20px;
 }
 
 .division3 h3{
-    width: 40rem;
-    height: 20rem;
     position: relative;
+    width: 500px;
+    height: 200px;
 }
 
 .division3 div{
 display: inline-block;
 position: relative;
-right: 20REM;
+right: 200px;
 }
 
 .division3 img{
-    height: 40rem;
     position: relative;
-    border-radius: 5rem;
-    margin-right: 20rem;
-    margin-left: 20rem;
+    left: 150px;
+    height: 450px;
+    border-radius: 50px;
+    margin-right: 180px;
+    margin-left: 180px;
 }
 
-.logo{
-    width: 20rem;
-    height: 20rem;
-    position: absolute;
-    margin-top: 6rem;
-    right: 10rem;
+.division3 #sukunadesc {
+    left: 350px;
+    top: 100px;
 }
 
-.logo img{
-    position: relative;
-    width: 10rem;
-    left:12rem ;
+.division3 #Lavelada{
+    top:60px;
+    font-size: 70px;
 }
 
-#gojo{
-right: 8rem;
-height: 1rem;
-margin: 1rem;
-text-align: center;
-width: 20rem;
-right: 20rem;
+.division3 #gojodesc{
+    left:350px;
+    top:50px;
 }
 
-#gojo img{
-    font-size: 1rem;
-    margin: 0;
-    padding: 0 1rem;
-    vertical-align: middle;
+.division3 #sukunadesc{
+    top:50px;
 }
 
-#sukuna{
-background: none;
-bottom: 40REM;
-left: 35REM;
-height: 2rem;
-margin: 2rem;
-text-align: center;
-width: 20rem;
-text-align: center;
+
+.division3 #gojo {
+top: 20px;
 }
 
-#sukunadesc{
-    bottom: 7rem;
+.division3 #sukuna {
+ top: 230px;
 }
 
-#sukuna img{
-    font-size: 1rem;
-    position: relative;
-    margin: 0;
-    padding: 0 1rem;
-    vertical-align: middle;
-    top: 45rem;
-}
 
     /*---------------------------------------------------------parte 4------------------------------------------------------------------*/
 
-.division4{
+.division4-deposito{
     display: inline-block;
+    text-align: center;
     position: relative;
-    right: 20REM;
-    margin-left: 10rem;
+    right: 200px;
+    width: 100%;
+    height: 850px;
+
 }
 
-.division4 h2{
-    position: relative;
-    left: 30rem;
-    top: 5rem;
-    font-size: 7rem;
+.division4-titulo{
+    left: 300px;
+    top: 50px;
+    font-size: 20px;
+    word-wrap: break-word;
 }
+
+
 
 .division4 img{
-    height: 40rem;
-    border-radius: 5rem;
-    margin: 0rem 2rem;
+    height: 400px;
+    border-radius: 50px;
+    margin: 50px;
+    margin-bottom: 150px;
     position: relative;
-    left: 50rem;
-    top: 10rem;
+    left: 250px;
+    top: 100px;
+}
+
+.division4 h3{
+    position: relative;
+    width: 500px;
+    left: 650px;
 }
 
 .division4 p{
     position: relative;
-    top: 10rem;
-    width: 100rem;
-    left: 65rem;
+    left: 300px;
+    width: 500px;
+    margin: 10px 500px;
 }
 
+    /*---------------------------------------------------------parte 5------------------------------------------------------------------*/
+
+    #desc2{
+        top: 80px;
+        width: 700px;
+        position: relative;
+        left: 100px;
+    }
+
+
+.division5{
+    display: flex;
+    align-items: center;
+    background-color: var(--gris);
+    text-align:center;
+    border-radius:10px;
+    justify-content: center;
+    background: #EEEEEE;
+}
+
+.division5 img{
+    height: 400px;
+    width: 350px;
+    border-radius: 50px;
+    margin: 50px;
+    margin-bottom: 150px;
+    position: relative;
+    top: 100px;
+}
+
+.division5 p {
+    position:relative;
+}
+
+.division5 #yuta {
+    width: 300px;
+    left: 100px;
+}
+
+.division5 #abogado {
+    width: 300px;
+    left: 100px;
+}
+
+.division5 #itadori {
+    width: 300px;
+    left: 100px;
+}
+
+
+.division5 #kashimo {
+    right: 300px;
+    width: 300px;
+    left: 100px;
+}
+
+
+.division5 #hakari {
+    width: 300px;
+    left: 100px;
+}
+
+.division5 #angel {
+    width: 300px;
+    left: 100px;
+}
+
+
+
+.division5 h2{
+    bottom: 200px;
+    font-size: 30px
+    ;
+}
