@@ -23,6 +23,13 @@ body{
     font-size: 16px;
     width:100%;
 }
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: #8a6587;
+    text-align: center;
+}
 /*--------------------------------------------------------- nav------------------------------------------------------------------*/
 
 .navegador {
@@ -36,15 +43,19 @@ body{
     padding-left: 10px;
     color: #fff;
 }
-.navegador #icon{
+.navegador #icono{
     padding-top: 30px;
-    align-items: center;
 }
 
-.navegador #icon :hover{
-    background-color: #fff;
-    color: var(--primario);
+.navegador #burrito-imagen{
+    display:flex;
+    height: 100px;
+    width: 100px;
+}
 
+.navegador #burrito-imagen :hover{
+    background-color: #9944b3;
+    border-radius: 25%;
 }
 
 .navegador img{
@@ -53,57 +64,64 @@ body{
 
 /*---------------------------------------------------------parte 1------------------------------------------------------------------*/
 
-.division1{
-    text-align: center;
-    margin-bottom: 100px;
+.deposito-division1{
+    height: 820px;
+    width: 100%;
+    margin-top: 30px;
 }
 
-.division1 div {
-    display: inline-block;
+.division1{
+    margin: 0 100px 0 100px;
+    display:flex;
+}
+
+.division1-texto{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.division1-imagen{
+    width: 50%;
+    text-align: center;
+}
+
+.division1-imagen img{
+    height: 750px;
+    border-radius: 100px;
+}
+
+.division1-texto #titulo{
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    color: #fff;
     width: 600px;
     height: 300px;
-    border-radius: 0 50px 50px 0 ; 
-    margin-top: 20px;
-}
-
-.division1 h1 {
-    color: #fff;
-    font-size:150px;
-    margin-top: 25px;
-    margin-bottom: 15px;
-}
-
-.division1 h2{
-    color: #fff;
-}
-
-.division1 p {
     position: relative;
-    left: 100px;
-    top: 100px;
-    font-size: 20px;
-    text-align: left;
-}
-
-.division1 .div1{
-    margin-top: 400px;
-    position: relative;
-    right: 100px;
-    bottom: 300px;
+    top: 50px;
+    right: 50px;
+    border-radius: 0 50px 50px 0;
     background-color:var(--primario) ;
 }
 
-.div2{
-    position: relative;
-    bottom: 300px;
+.division1-texto #titulo h1{
+    font-size: 15rem;
 }
 
-.division1 .div2 img{
-    height: 750px;
-    width: max-content;
+.division1-texto #titulo h2{
+    font-size: 4rem;
+}
+
+.division1-texto #lore{
+    padding: 100px 100px 0;
+    font-size: 20px;
+    text-align: left;
     position: relative;
-    top: 300px;
-    border-radius: 100px;
+    bottom: 50px;
 }
 
 /*---------------------------------------------------------parte 2------------------------------------------------------------------*/
@@ -111,7 +129,7 @@ body{
 .division2-deposito{
     text-align: center;
     width: 100%;
-    height: 850px;
+    height: 750px;
 }
 
 .division2{
@@ -129,10 +147,20 @@ body{
     width: 50%;
 }
 
-.division2 .deposito-img img{
+.division2 .deposito-img #img1{
     height: 700px;
     width: auto;
     border-radius: 100px;
+    border:#000;
+    border-style: dashed;
+}
+
+.division2 .deposito-img #img2{
+    height: 150px;
+    width: auto;
+    position: relative;
+    bottom: 750px;
+    left: 250px;
 }
 
 .division2 .deposito-texto{
@@ -149,108 +177,140 @@ body{
 
 .deposito-texto-burrito h2{
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 35px auto 0 1px;
 }
 
-/*
-.division2 div{
-    display: inline-block;
-    width: 400px;
-    height: 200px;
-    margin: 50px 120px;
-    border-radius: 10px; 
-}
-
-.division2 img{
-    height: 400px;
-    position: relative;
-    border-radius: 100px;
-    bottom: 400px;
-    right: 150px;
-}
-
-.division2 h2 {
-    font-size: 6rem;
-    position: relative;
-    margin-bottom: 400px;
-    margin-top: 20px;
-}
-
-.division2 p {
-    position: relative;
-    bottom: 300px;
+.deposito-texto-burrito #frase{
+    color: #858585;
+    padding-top: 5%;
     font-size: 2rem;
 }
-*/
+
+.deposito-texto-burrito #lore{
+    font-size: 2rem;
+}
+
 /*---------------------------------------------------------parte 3------------------------------------------------------------------*/
 
-.division3{
-    text-align:center;
-    height:700px;
-    border-radius:10px;
+
+
+.division3-deposito{
     background: #EEEEEE;
-    padding-bottom: 1200px;
+    height: 850px;
+    width: 100%;
+}
+
+.division3{
+    padding: 50px 170px 70px 170px;
 }
 
 .division3 h2{
-    position: relative;
-    right: 600px;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 7rem;
+    height: 100%;
+    margin: 0 auto 0 1px;
 }
 
-.division3 h3{
-    position: relative;
-    width: 500px;
-    height: 200px;
+.division3 .info-burrito{
+    display: flex;
+    height: 610px;
+    margin-top: 50px;
 }
 
-.division3 div{
-display: inline-block;
-position: relative;
-right: 200px;
+.gojo-deposito{
+    width: 50%;
+    padding: 30px
 }
 
-.division3 img{
-    position: relative;
-    left: 150px;
-    height: 450px;
-    border-radius: 50px;
-    margin-right: 180px;
-    margin-left: 180px;
+.sukuna-deposito{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-.division3 #sukunadesc {
-    left: 350px;
-    top: 100px;
+.gojo-deposito p{
+    margin-top: 50px
 }
 
-.division3 #Lavelada{
-    top:60px;
-    font-size: 70px;
+.gojo-deposito #img-gojo{
+    width: 350px;
+    margin-left: auto;
+    height: auto;
+    border-radius: 30px;
 }
 
-.division3 #gojodesc{
-    left:350px;
-    top:50px;
+.sukuna-deposito #img-sukuna{
+    width: 350px;
+    height: auto;
+    border-radius: 30px;
+    margin: 30px auto 0 0;
 }
 
-.division3 #sukunadesc{
-    top:50px;
+/*---------------------------------------------------------parte 4------------------------------------------------------------------*/
+
+.division4-deposito{
+    height: 625px;
+    width: 100%;
 }
 
-
-.division3 #gojo {
-top: 20px;
+.division4{
+    margin: 0 170px 0 170px;
 }
 
-.division3 #sukuna {
- top: 230px;
+.division4-titulo{
+    padding: 40px 0 10px 0;
+    font-size: 3rem;
 }
 
+.division4-imagenes{
+    display: flex;
+    justify-content: space-around;
+    width: 1140px;
+    margin-top: 30px;
+    margin-bottom: 25px; 
+}
 
-    /*---------------------------------------------------------parte 4------------------------------------------------------------------*/
+.division4-imagenes img{
+    height: 274px;
+    width: auto;
+}
 
+.division4-texto{
+    text-align: center;
+}
+
+.division4-botoncito{
+    display: flex;
+}
+
+.division4-botoncito span{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 75px;
+    margin: 30px auto 60px auto;
+    background: var(--primario);
+    border-radius: 40px;
+}
+
+.division4-botoncito button{
+    border: none;
+    color: #fff;
+    background: none;
+    font-size: 2rem;
+}
+
+.division4-botoncito span :hover{
+    width: 300px;
+    height: 75px;
+    background-color: #9944b3;
+    border-radius:40px;
+}
+
+/*
 .division4-deposito{
     display: inline-block;
     text-align: center;
@@ -292,15 +352,16 @@ top: 20px;
     width: 500px;
     margin: 10px 500px;
 }
+*/
 
-    /*---------------------------------------------------------parte 5------------------------------------------------------------------*/
+ /*---------------------------------------------------------parte 5------------------------------------------------------------------*/
 
-    #desc2{
-        top: 80px;
-        width: 700px;
-        position: relative;
-        left: 100px;
-    }
+#desc2{
+    top: 80px;
+    width: 700px;
+    position: relative;
+    left: 100px;
+}
 
 
 .division5{
@@ -367,3 +428,5 @@ top: 20px;
     font-size: 30px
     ;
 }
+
+
