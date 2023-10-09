@@ -5,7 +5,7 @@
     --negro: #000;
     --primario: #723185;
     --segundario: #000;
-    --gris: #757575;
+    --gris: #EEEEEE;
     --rojp: #FE90AA;
 }
 
@@ -276,6 +276,7 @@ footer{
 .division4-imagenes img{
     height: 274px;
     width: auto;
+    border-radius: 50px;
 }
 
 .division4-texto{
@@ -310,123 +311,398 @@ footer{
     border-radius:40px;
 }
 
-/*
-.division4-deposito{
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    right: 200px;
-    width: 100%;
-    height: 850px;
-
-}
-
-.division4-titulo{
-    left: 300px;
-    top: 50px;
-    font-size: 20px;
-    word-wrap: break-word;
-}
-
-
-
-.division4 img{
-    height: 400px;
-    border-radius: 50px;
-    margin: 50px;
-    margin-bottom: 150px;
-    position: relative;
-    left: 250px;
-    top: 100px;
-}
-
-.division4 h3{
-    position: relative;
-    width: 500px;
-    left: 650px;
-}
-
-.division4 p{
-    position: relative;
-    left: 300px;
-    width: 500px;
-    margin: 10px 500px;
-}
-*/
-
  /*---------------------------------------------------------parte 5------------------------------------------------------------------*/
 
-#desc2{
-    top: 80px;
-    width: 700px;
-    position: relative;
-    left: 100px;
-}
-
-
-.division5{
+.division5-deposito{
+    height: 1100px;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: var(--gris);
     text-align:center;
-    border-radius:10px;
-    justify-content: center;
+    margin-top: 30px;
     background: #EEEEEE;
 }
 
-.division5 img{
-    height: 400px;
-    width: 350px;
+.division5-titulo{
+    height: 10%;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.division5-linea1{
+    display: flex;
+    height: 50%;
+    margin: 0 170px 0 170px;
+}
+
+.division5-linea2{
+    display: flex;
+    height: 50%;
+    margin: 0 170px 0 170px;
+    padding-bottom: 50px;
+}
+
+.division5-linea1 .linea1-deposito1{
+    width: 33.33%;
+    height: 100%;
+}
+
+.division5-linea1 .linea1-deposito2{
+    width: 33.33%;
+    height: 100%;
+}
+
+.division5-linea1 .linea1-deposito3{
+    width: 33.33%;
+    height: 100%;
+}
+
+.division5-linea1 img{
+    width: 300px;
+    height: 300px;
     border-radius: 50px;
     margin: 50px;
-    margin-bottom: 150px;
+}
+
+.division5-linea2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.division5-linea1 .linea2-deposito1{
+    width: 33.33%;
+    height: 100%;
+}
+
+.division5-linea1 .linea2-deposito2{
+    width: 33.33%;
+    height: 100%;
+}
+
+.division5-linea1 .linea2-deposito3{
+    width: 33.33%;
+    height: 100%;
+}
+
+.division5-linea1 p{
+    word-wrap: break-word; 
+}
+
+/*---------------------------------------------------------parte 6------------------------------------------------------------------*/
+
+.division6-deposito{
+    height: 570px;
+    width: 100%;
+}
+
+.division6{
+    display: flex;
+    margin: 0 170px 0 170px;
+    height: 100%;
+}
+
+.division6-imagen{
+    width: 50%;  
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.division6-imagen .imagen-deposito{
+    color: #ffffff;
+    height: 450px;
+    width: 350px;
+    margin: 0;
+    background: var(--primario);
+    border-radius: 50px;
+}
+
+.division6-imagen .imagen-deposito h2{
+    font-size: 5rem;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.division6-texto{
+    width: 50%;
+}
+
+.division6-imagen img{
+    height: 300px;
+    width: 350px;
+    border-radius: 50px 50px 0 0;
+}
+
+.division6-texto{
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    justify-content: center;
+}
+
+.division6-texto .texto-deposito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 445px;
+}
+
+.division6-texto .texto-deposito h2{
+    font-size: 5rem;
+    margin-bottom: 30px;
+}
+
+.division6-texto .botoncito-deposito span{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 75px;
+    margin: 30px auto 60px auto;
+    background: var(--primario);
+    border-radius: 40px;
+}
+
+.division6-texto .botoncito-deposito button{
+    border: none;
+    color: #fff;
+    background: none;
+    font-size: 2rem;
+}
+
+.division6-texto .botoncito-deposito span :hover{
+    width: 300px;
+    height: 75px;
+    background-color: #9944b3;
+    border-radius:40px;
+}
+
+/*---------------------------------------------------------parte 7------------------------------------------------------------------*/
+
+.division7-deposito{
+    height: 675px;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.division7{
+    margin: 0 170px 0 170px;
+    height: 100%;
+}
+
+.division7 h2{
+    font-size: 5rem;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+}
+
+.deposito-cuadros{
+    display: flex;
+    justify-content: space-between;
+    width: 710px;
+    height: 500px;
+    margin: 70px 215px 40px 215px;
+}
+
+.deposito-cuadros img{
+    width: 125px;
+    height: 125px;
+    border-radius: 25%;
     position: relative;
-    top: 100px;
+    left: 115px;
+    bottom: 50px;
+    border-style:ridge;
+    border-color: #000;
 }
 
-.division5 p {
-    position:relative;
+.deposito-cuadros h3{
+    font-size: 4rem;
+    margin-bottom: 30px;
 }
 
-.division5 #yuta {
+.deposito-cuadros p{
+    font-size: 2rem;
+    padding: 10px 30px 10px 30px;
+}
+
+.deposito-cuadros .cuadro1{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: flex-start;
+    width: 345px;
+    height: 500px;
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+.deposito-cuadros .cuadro2{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: flex-start;
+    width: 345px;
+    height: 500px;
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+.division7 .deposito-cuadros span{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 75px;
+    margin: 30px auto 60px auto;
+    background: var(--primario);
+    border-radius: 40px;
+}
+
+.division7 .deposito-cuadros button{
+    border: none;
+    color: #fff;
+    background: none;
+    font-size: 2rem;
+}
+
+.division7 .deposito-cuadros span :hover{
+    width: 250px;
+    height: 75px;
+    background-color: #9944b3;
+    border-radius:40px;
+}
+
+/*---------------------------------------------------------parte 8------------------------------------------------------------------*/
+
+.division8-deposito{
+    height: 750px;
+    width: 100%;
+}
+
+.division8{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 140px 0 170px;
+}
+
+.division8 h2{
+    font-size: 5rem;
+    padding: 30px;
+    text-align: left;
+}
+
+.burrito-imagenes{
+    display: flex;
+    flex-direction: column;
+}
+
+.burrito-imagenes img{
+    height: 245px;
+    width: 275px;
+    border-radius: 25px;
+    border-style: ridge;
+    border-color: #000;
+}
+
+.division8-linea1{
+    height: 300px;
+}
+
+.division8-linea1{
+    display: flex;
+}
+
+.division8-linea1 .burrito-imagen1{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    padding: 30px;
+}
+
+.division8-linea1 .burrito-imagen2{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    padding: 30px;
+}
+
+.division8-linea2{
+    height: 300px;
+}
+
+.division8-linea2{
+    display: flex;
+}
+
+.division8-linea2 .burrito-imagen3{
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+    padding: 30px;
+}
+
+.division8-linea2 .burrito-imagen4{
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    padding: 30px;
+}
+
+/*---------------------------------------------------------patrocinadores------------------------------------------------------------------*/
+
+.deposito-patrocinadores{
+    height: 460px;
+    width: 100%;
+    background: var(--primario);
+}
+
+.patrocinadores{
+    color: #fff;
+    margin: 0 170px 0 170px;
+    height: 100%;
+    text-align: left;
+}
+
+.patrocinadores h1{
+    font-size: 7rem;
+    padding: 20px 0 40px 20px;
+}
+
+.patrocinadores .crunchyroll{
     width: 300px;
-    left: 100px;
 }
 
-.division5 #abogado {
-    width: 300px;
-    left: 100px;
+/*---------------------------------------------------------footer------------------------------------------------------------------*/
+
+.deposito-footer{
+    height: 140px;
+    width: 100%;
+    color: #fff;
+    background: #5a246a;
 }
 
-.division5 #itadori {
-    width: 300px;
-    left: 100px;
+.footer .burrito-texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-.division5 #kashimo {
-    right: 300px;
-    width: 300px;
-    left: 100px;
+.footer{
+    margin: 0 170px 0 170px;
 }
 
-
-.division5 #hakari {
-    width: 300px;
-    left: 100px;
+.footer .titulo{
+    font-size: 3rem;
+    text-align: center;
 }
 
-.division5 #angel {
-    width: 300px;
-    left: 100px;
+.footer .texto{
+    font-size: 1rem;
+    text-align: center;
 }
-
-
-
-.division5 h2{
-    bottom: 200px;
-    font-size: 30px
-    ;
-}
-
-
